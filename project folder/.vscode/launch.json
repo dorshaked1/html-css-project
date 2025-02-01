@@ -1,0 +1,15 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "file:///C:/Users/dor7/OneDrive/%D7%9E%D7%A1%D7%9E%D7%9B%D7%99%D7%9D/software%20engineering%20studies-rupin2024/semester%20A%20first%20year/js-course/final%20project%20html%20and%20css-01.03.25/project%20folder/main%20page/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

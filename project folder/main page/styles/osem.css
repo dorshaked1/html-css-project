@@ -1,0 +1,27 @@
+body {
+  background-color: lightskyblue;
+}
+.fieldset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.firstphotos {
+  width: 150px;
+  height: 150;
+}
+.maindiv h1 {
+  text-decoration: underline;
+  font-weight: bold;
+  line-height: -3px;
+}
+.logophoto {
+  transform: translate(750%, 30%);
+  width: 150x;
+  height: 150px;
+}
+.pastaspan {
+  font-weight: bold;
+  display: block;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact page</title>
+    <link rel="stylesheet" href="contact page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar area -->
+      <nav class="mainnav">
+        <section class="sectionimg">
+          <img src="../about page/logo.png" alt="לוגו העיר חולון" />
+        </section>
+
+        <div class="orderlinav">
+          <ul>
+            <li><a class="active" href="../main page .html">home page</a></li>
+            <li><a href="../about page/about page.html">about </a></li>
+            <li><a href="../media page/media page.html">media </a></li>
+            <li><a href="../faq page/faq page.html">faq </a></li>
+            <li><a href="../contact page/contact page.html">contact </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1>יצירת קשר</h1>
+        <p>
+          לכל בקשה או שאלה הנכם מתבקשים למלא את הטופס ובקשתכם תתטופל בהקדם
+          האפשרי,בברכה עריית חולון
+        </p>
+      </div>
+      <div class="container">
+        <div class="title">contact</div>
+        <form action="https://formspree.io/f/mbjwwpoe" method="post">
+          <div class="user-deatails">
+            <div class="input-box">
+              <span class="details">שם פרטי</span>
+              <input type="text" placeholder="enter your first name" required />
+            </div>
+            <div class="input-box">
+              <span class="details">שם משפחה</span>
+              <input type="text" placeholder="enter your name" required />
+            </div>
+            <div class="input-box">
+              <span class="details">מייל</span>
+              <input type="email" placeholder="enter your email" required />
+            </div>
+            <div class="input-box">
+              <span class="details">מספר פלאפון </span>
+              <input type="text" placeholder="enter your number" required />
+            </div>
+            <div class="input-box">
+              <span class="details">כתובת</span>
+              <input type="text" placeholder="enter your address" required />
+            </div>
+            <div class="input-box">
+              <span class="details">טקסט חופשי להערות </span>
+              <textarea name="" id="free text" cols="30" rows="11"></textarea>
+            </div>
+            <!-- gender area -->
+            <div class="gender-details">
+              <h3 class="title-gender">מגדר</h3>
+
+              <label for="dot-1"> זכר </label>
+
+              <input type="radio" name="gender" id="dot-1" />
+              <label for="dot-2"> נקבה </label>
+              <input type="radio" name="gender" id="dot-2" />
+              <label for="dot-3"> מעדיף לא לציין </label>
+              <input type="radio" name="gender" id="dot-3" />
+            </div>
+            <div class="button">
+              <input type="submit" value="שליחה" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="containerf">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/holon.muni"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/holon.muni/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <div>copyright C dor shaked</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

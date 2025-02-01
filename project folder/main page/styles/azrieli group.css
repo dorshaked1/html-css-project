@@ -1,0 +1,29 @@
+.logophoto {
+  width: 150px;
+  height: 150px;
+  transform: translate(900%, 30%);
+}
+.heading1 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+heading2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.images {
+  width: 250px;
+  height: 250px;
+}
+.fieldset {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 750px;
+  width: 1450px;
+}
+
+body {
+  background-color: #2e2e2e;
+}
