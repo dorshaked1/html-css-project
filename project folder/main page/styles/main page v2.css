@@ -1,4 +1,6 @@
+
 .container {
+  height: 100%;
   display: grid;
   grid-template-areas:
     "header header "
@@ -6,14 +8,14 @@
     "footer footer";
   grid-template-columns: 1fr 3fr;
   /* gap: 5px; */
-  background-color: #2196f3;
+  background-color: #bdbdbd;
   /* padding: 5px; */
 }
 .container > header,
 .container > nav,
 .container > main,
 .container > footer {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   padding: 10px;
 }
 header {
@@ -66,7 +68,7 @@ nav img {
 .sponsors-container > div {
   flex: 1 1 calc(33.33% - 20px);
   text-align: center;
-  background-color: rgba(29, 128, 141, 0.8);
+  /* background-color: #444444; */
   padding: 10px;
 }
 .sponsors-container > div a img {
@@ -100,4 +102,85 @@ main > .nameSponsors {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   width: 70%;
+}
+
+
+footer> .container1 >.row {
+   display: flex; 
+  flex-wrap: wrap;
+}
+
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #d8d8d8;
+  text-decoration: none;
+  font-weight: 300;
+
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #000000;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+/* responsive */
+@media (max-width: 767px) {
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+}
+footer {
+  /* border: 1px solid black; */
+  background-color: #333;
+}
+
+i {
+  font-size: 24px;
+  color: blue;
+}
+.copyright
+{
+  color: rgb(255, 255, 255);
 }
