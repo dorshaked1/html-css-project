@@ -1,3 +1,6 @@
+body{
+  direction: rtl;
+}
 
 .container {
   height: 100%;
@@ -104,12 +107,10 @@ main > .nameSponsors {
   width: 70%;
 }
 
-
-footer> .container1 >.row {
-   display: flex; 
+footer > .container1 > .row {
+  display: flex;
   flex-wrap: wrap;
 }
-
 
 .footer-col {
   width: 25%;
@@ -180,7 +181,7 @@ i {
   font-size: 24px;
   color: blue;
 }
-.copyright
-{
+.copyright {
   color: rgb(255, 255, 255);
 }
+
