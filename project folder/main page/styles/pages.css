@@ -31,7 +31,6 @@ nav {
 }
 main {
   grid-area: main;
-  
 }
 
 footer {
@@ -173,20 +172,47 @@ i {
 .gallery11 {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; 
-  gap: 15px; 
+  flex-wrap: wrap;
+  gap: 15px;
   margin-top: 20px;
 }
 
 .gallery11 img {
-  max-width: 200px; 
+  max-width: 200px;
   height: auto;
-  border-radius: 10px; 
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
-.logophoto{
+.logophoto {
   width: 200px;
   height: auto;
 }
 
+.h1S {
+  color: #333;
+  font-size: 2.5em;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px;
+  background-color: grey;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+.product-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
 
+.product-row figure {
+  text-align: center;
+  width: 40%;
+}
+.product-row figure img {
+  height: 100px;
+  width: auto;
+}
